@@ -10,108 +10,71 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e5f4df1593.js" crossorigin="anonymous"></script>
     <title>Danish Fayyadh Altamis</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-
-    <!-- header -->
-    <div class="px-4 py-5 text-center bgheader text-white">
-        <img class="d-block mx-auto mb-4 rounded-circle" src="img/qw.jpg" alt="" width="150" height="150">
-        <h1 class="display-5 fw-bold">Danish Fayyadh Altamis</h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
-                most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-                extensive prebuilt components, and powerful JavaScript plugins.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <a class="btn btn-lg btn-outline-light rounded-pill" href="#aboutme" role="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                        class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z" />
-                    </svg>
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-white position-fixed"
+        style="height:100vh; background-color:rgba(70, 95, 91, 0.9)">
+        <img class="d-block mx-auto mb-4 p-2 rounded-circle" src="img/qw.jpg" alt="myprofilephoto" width="125"
+            height="125">
+        <h1 class="fs-5 fw-lighter text-center">Danish Fayyadh Altamis</h1>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link active bg-secondary" aria-current="page">
+                    <i class="fas fa-home me-2"></i>
+                    Home
                 </a>
-            </div>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white">
+                    <i class="far fa-address-card me-2"></i>
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white">
+                    <i class="fas fa-chart-bar me-2"></i>
+                    Skills
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white">
+                    <i class="far fa-folder-open me-2"></i>
+                    Portfolio
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white">
+                    <i class="far fa-envelope me-2"></i>
+                    Contact
+                </a>
+            </li>
+        </ul>
+        <hr>
+        <div class="d-flex justify-content-center">
+            <span style="font-size: 1.5em;">
+                <a href="" class="text-white text-decoration-none">
+                    <i class="fab fa-github p-2"></i>
+                </a>
+                <a href="" class="text-white text-decoration-none">
+                    <i class="fab fa-spotify p-2"></i>
+                </a>
+                <a href="" class="text-white text-decoration-none">
+                    <i class="fab fa-whatsapp p-2"></i>
+                </a>
+                <a href="" class="text-white text-decoration-none">
+                    <i class="fab fa-instagram p-2"></i>
+                </a>
+            </span>
         </div>
     </div>
 
-    <!-- aboutme -->
-    <div class="container col-xxl-8 px-4 py-5" id="aboutme">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img src="img/bootstrap-themes.png" data-aos="fade-left" data-aos-duration="1000"
-                    data-aos-easing="linear" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
-                    height="500" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3" data-aos="zoom-in" data-aos-duration="1000"
-                    data-aos-easing="linear">Responsive left-aligned hero with image</h1>
-                <p class="lead" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear">Quickly design
-                    and customize responsive mobile-first sites with Bootstrap, the world’s
-                    most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
-                    system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- skillbar -->
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt vitae numquam optio doloremque autem
-    maxime atque quibusdam adipisci asperiores blanditiis, nihil distinctio velit dolorem quo commodi, eveniet veniam
-    ipsa iusto voluptates necessitatibus omnis debitis eos. Ad asperiores incidunt nemo dolores voluptates odio enim
-    repellat laboriosam dolorum, assumenda beatae delectus omnis nam, ex ducimus voluptatibus dignissimos hic minus.
-    Pariatur aliquam odit nemo natus dignissimos accusamus excepturi! Hic odio, voluptate quam aperiam ullam nobis omnis
-    quasi eius, modi iusto laudantium quaerat ex. Quisquam similique a dignissimos velit maxime, eum fugiat. Iure
-    corrupti commodi quisquam deserunt optio in perspiciatis et quia illo.
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src=" https://unpkg.com/aos@2.3.1/dist/aos.js"> </script>
     <script>
         AOS.init();
     </script>
