@@ -27,3 +27,8 @@ nav .nav-item a:hover {
     color: rgb(255, 164, 229);
     transform: scale(1.05);
 }
+
+#contact footer ul li a svg:hover {
+    color: rgb(255, 164, 229);
+    transform: scale(1.15);
+}
