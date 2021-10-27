@@ -27,16 +27,16 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Active</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#skill">Skill</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -46,11 +46,12 @@
     <!-- header -->
     <div class="px-5 py-5 text-center bgheader text-white">
         <div class="container-md">
-            <div class="row align-items-center justify-content-center">
-                <div class="card mb-3 bg-transparent shadow-lg p-3 mb-5 bg-body rounded" style="max-width: 540px;">
+            <div class="row align-items-center justify-content-center my-3">
+                <div class="card bg-transparent shadow-lg p-3 bg-body rounded" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4 p-4">
-                            <img src="img/qw.jpg" class="img-fluid img-thumbnail rounded-circle" alt="..." width="150" height="150">
+                            <img src="img/pp.jpg" class="img-fluid img-thumbnail rounded-circle" alt="..." width="150"
+                                height="150">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -72,8 +73,10 @@
         </div>
     </div>
 
-    <!-- aboutme -->
-    <div class="container col-xxl-8 px-4 py-5" id="aboutme">
+    <!-- content -->
+    <div class="container col-xxl-8 px-4 py-5">
+        <h3 class="text-center" id="about">About Me</h3>
+        <hr>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa vel asperiores dolor blanditiis eius
         tempore exercitationem magnam obcaecati iusto autem illo aperiam inventore quaerat cupiditate non reprehenderit
         voluptatum, odit perferendis minus adipisci corrupti, unde quis? Obcaecati consequatur saepe quos vero quam
@@ -81,7 +84,32 @@
         voluptates dolores nisi! Qui illo nesciunt repellendus odit iusto similique obcaecati quibusdam iste, ipsam
         ratione non quod ea maxime velit quia eum, sequi, quae saepe sunt consequatur facere ullam? Quibusdam vitae illo
         quia totam adipisci exercitationem quam similique quos natus cum laborum, nam sequi.
+        <div class="mt-5">
+            <h3 class="text-center" id="skill">My Skill</h3>
+            <hr>
+            <h5>HTML</h5>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 55%" aria-valuenow="55"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h5>CSS</h5>
+            <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <h5>PHP</h5>
+            <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h5>C++</h5>
+            <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="45"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
     </div>
+    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
