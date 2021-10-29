@@ -32,3 +32,7 @@ nav .nav-item a:hover {
     color: rgb(255, 164, 229);
     transform: scale(1.15);
 }
+
+.modal-content {
+    background-color: #212529;
+}
